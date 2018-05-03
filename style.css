@@ -11,6 +11,8 @@ body {
   
   h1 {
     color: #FFF;
+    background-color: grey;
+    font-family: 'Helvetica';
     font-size: 2em;
     padding-top: 100px;
     width: 100%;
@@ -28,7 +30,8 @@ body {
   }
   
   p {
-    color: AliceBlue;
+    color:rgba(255, 255, 255, 0.85);
+    font-family: 'serif';
     line-height: 1.3em;
     text-align: left;
     width: 100%;
@@ -36,7 +39,7 @@ body {
   
   .byline {
     font-family: Helvetica;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     float: left;
     font-size: 14px;
     padding-left: 10px;
@@ -54,6 +57,7 @@ body {
     position: relative;
     top: 80%;
     width: 60%;
+    opacity: 0.75;
   }
   
   .content {
@@ -75,4 +79,6 @@ body {
     width: 50px;
   }
   
-  
+  a {
+    color: white;
+  }
